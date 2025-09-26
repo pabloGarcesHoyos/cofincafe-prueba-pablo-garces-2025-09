@@ -1,4 +1,9 @@
 package com.cofincafe.prueba.port;
 
-public class ClientRepository {
+import com.cofincafe.prueba.model.Client;
+
+import java.util.List;
+
+public interface ClientRepository {
+    List<Client> findAll();
 }
